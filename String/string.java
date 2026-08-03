@@ -13,5 +13,6 @@ public class string {
         System.out.println(s1==s2);// true because both refer to same instance
         System.out.println(s1==s3);// false because s3 refers to instance created in heap memory
         System.out.println(s1.equals(s3));// true because content is same
+        System.out.println(s1.equalsIgnoreCase(s3));// true because content is same ignoring case
     }
 }
