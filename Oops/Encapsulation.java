@@ -15,22 +15,20 @@ public class Encapsulation {
 class Human{
     private int age;// private variables
     private String name;// private variables
-
-    public int getAge() {// getter method for age
+    public int getAge() {
         return age;
     }
-
-    public void setAge(int a) {// setter method for age
-        age = a;
+    public void setAge(int age) {
+        this.age = age;
     }
-
-    public String getName() {// getter method for name
+    public String getName() {
         return name;
     }
-
-    public void setName(String n){// setter method for name
-        name = n;
+    public void setName(String name) {
+        this.name = name;
     }
+
+    
 
 
 }
