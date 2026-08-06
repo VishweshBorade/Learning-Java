@@ -1,8 +1,8 @@
 package Oops;
 
-public class Constructors {// overloading of constructor is not possible in java but we can overload the
-                           // constructor by using different number of parameters or different types of
-                           // parameters
+public class Constructors {// we can overload the constructor by using
+                           // different number of parameters or different
+                           // types of parameters in the constructor
     class Student {
         String name;
 
